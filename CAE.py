@@ -65,7 +65,7 @@ print(autoencoder.summary())
 #set-up
 datapath = 'input_imgs/'
 imagesize = (101, 101) #image size
-Nepochs = 10 #number of epochs for CAE training
+Nepochs = 10 #number of epochs for CAE training #try at least 500 epochs at first. 
 tosavemodel = True #if save the trained CAE model
 plot_reconstruction = True #if plot the reconstruction comparison
 savename = 'CAE_reconstruction' #setup if "tosavemodel=True" or "plot_reconstuction=True"
